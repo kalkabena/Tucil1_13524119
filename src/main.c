@@ -16,7 +16,7 @@ int main() {
 	int regions[26];
 	int dump;
 	
-	system("cls");
+	//system("cls");
 	
 	printf("Enter absolute file path, or q to quit > ");
 	scanf("%s", in_str);
@@ -175,7 +175,7 @@ int main() {
 		regions[i] = 0;
 	}
 	
-	system("cls");
+	//system("cls");
 	printf("Regions:\n");
 	for (int i = 0; i < bsz; i++) {
 		for (int j = 0; j < bsz; j++) {
@@ -248,4 +248,5 @@ int main() {
 	
 	dealloc_queens(&q);
 	return 0;
+
 }
